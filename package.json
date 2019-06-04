@@ -1,0 +1,30 @@
+{
+  "name": "moon-source-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjsglion/moon-source-code.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tjsglion/moon-source-code/issues"
+  },
+  "homepage": "https://github.com/tjsglion/moon-source-code#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-header": "^2.0.7",
+    "gulp-load-plugins": "^1.6.0",
+    "gulp-size": "^3.0.0",
+    "gulp-uglify": "^3.0.2"
+  }
+}

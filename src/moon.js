@@ -24,12 +24,11 @@
         children = el.childNodes,
         start = el.start || '{{',
         end = el.end || '}}';
-        console.log(children);
 
     const getProxyModel = function () {
       let obj = {};
       for (let key in model) {
-        if (model.hasOwnProperty(key)) {
+        if (model.hasOwnProperty(key)) { // 获取model中的自有属性而非继承属性
           // 双向数据绑定
           Object.defineProperty(obj, key, {
             configurable: true,
